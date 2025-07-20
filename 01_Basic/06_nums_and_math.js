@@ -12,3 +12,7 @@ console.log(otherNumber.toPrecision(4)); // Format to 4 significant digits
 
 const longDigit = 1000000
 console.log(longDigit.toLocaleString('en-IN')); // Format with locale-specific separators
+
+
+// +++++++++++++++++++ Maths operations +++++++++++++++++++++
+
