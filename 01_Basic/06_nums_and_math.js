@@ -6,3 +6,4 @@ console.log(balancce);
 
 console.log(balancce.toString()); // Convert to string
 console.log(balancce.toFixed(2)); // Format to 2 decimal places
+
