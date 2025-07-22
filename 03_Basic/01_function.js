@@ -1,17 +1,36 @@
-function saymyname() {
-    console.log("S")
-    console.log("A")
-    console.log("N")
-    console.log("T")
-    console.log("A") 
-    console.log("N")
-    console.log("U")   
+
+function sayMyName(){
+    console.log("H");
+    console.log("I");
+    console.log("T");
+    console.log("E");
+    console.log("S");
+    console.log("H");
 }
 
-// saymyname()
+// sayMyName()
 
-function addTwoNumbers(num1, num2) {
-    console.log(num1 + num2);   
+// function addTwoNumbers(number1, number2){
+
+//     console.log(number1 + number2);
+// }
+
+function addTwoNumbers(number1, number2){
+
+    // let result = number1 + number2
+    // return result
+    return number1 + number2
 }
 
-addTwoNumbers(5, 10);
+const result = addTwoNumbers(3, 5)
+
+// console.log("Result: ", result);
+
+
+function loginUserMessage(username = "sam"){
+    if(!username){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
