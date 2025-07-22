@@ -45,10 +45,38 @@ const users = [
     },
 ]
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // Returns an array of keys in the object
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); // Returns an array of keys in the object
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("id")); // Checks if the object has a specific property
+// console.log(tinderUser.hasOwnProperty("id")); // Checks if the object has a specific property
+
+
+
+const course = {
+    courseName: "JavaScript",
+    price: 999, 
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor); 
+console.log(instructor);
+
+
+// {
+//    "name": "Santanu",
+//    "course": "JavaScript",
+//    "price": "free",
+// }
+
+[
+    {},
+    {},
+    {}
+]
