@@ -1,3 +1,4 @@
+const { use } = require("react");
 
 function sayMyName(){
     console.log("H");
@@ -34,3 +35,35 @@ function loginUserMessage(username = "sam"){
     }
     return `${username} just logged in`
 }
+
+// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("hitesh"))
+
+function calculatePrice(val1, val2, ...num1){ 
+    return num1
+}
+
+// console.log(calculatePrice(200, 400, 555));
+
+const user = {
+    username: "santanu",
+    price: 199 
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 299
+})
+
+const myNewArray = [200,300, 500, 400]
+
+function returnSecondvalue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondvalue(myNewArray))
+console.log(returnSecondvalue([100, 200, 300, 400]));
