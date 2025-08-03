@@ -17,6 +17,16 @@ form.addEventListener('submit', function (e) {
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
     //show the result
     results.innerHTML = `<span>${bmi}</span>`;
+
+    /*if (results <= 18.6) {
+      console.log("Under Weight = Less than 18.6");
+    }
+    else if(results >= 18.6 && 24.9) {
+      console.log("18.6 and 24.9"); 
+    }
+    else {
+      console.log("Greater than 24.9");
+    } */
   }
 });
 
