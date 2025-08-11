@@ -20,5 +20,5 @@ class User {
     }
 }
 
-const hitesh = new User("santanu.ai", "abc")
-console.log(hitesh.email);
+const santanu = new User("santanu.ai", "abc")
+console.log(santanu.email);
